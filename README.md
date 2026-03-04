@@ -1,12 +1,16 @@
 # Uruchomienie
 
 ## Wymagania
-* Runtime - Node.js
-* RSS-parser
-* Playwright
+* Runtime: Node.js (18 lub nowszy)
+* Zależności: ```RSS-parser``` oraz ```Playwright```
 ## Pobieranie
 ```npm install rss-parser```
 ```npm install playwright```
 ```npx playwright install chromium```
 ## Uruchomienie 
-Wewnątrz folderu uruchamiamy polecenie ```node index.js```
+1. Wewnątrz folderu uruchamiamy polecenie ```node index.js```.
+2. Jako, że plik ```state.json``` nie istnieje, otworzy się widoczne okno przeglądarki.
+3. Po otworzeniu się okna mamy 60 sekund na zalogowanie się na swoje konto Google.
+4. Po upływie czasu skrypt zapisze naszą sesję do pliku ```state.json``` i zacznie generować szum.
+5. Przy następnych uruchomieniach wykryjemy istanienie pliku ```state.json```, dzieki czemu nie musimy się już logować
+
