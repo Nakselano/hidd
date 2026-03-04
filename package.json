@@ -1,0 +1,16 @@
+{
+  "name": "jaca_praca",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "rss-parser": "^3.13.0"
+  }
+}
