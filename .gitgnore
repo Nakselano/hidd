@@ -1,0 +1,7 @@
+node_modules/
+bot-session/
+bot-profil-v2/
+state.json
+trends-debug.png
+sprawdzam-logowanie.png
+.DS_Store
